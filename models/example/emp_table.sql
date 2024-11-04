@@ -1,6 +1,6 @@
 {{ 
     config(
-        materialized='table' 
+        materialized='table',
     ) 
 }}
 
@@ -8,9 +8,9 @@ WITH emp_table AS (
     SELECT * FROM (
         VALUES 
             (11, 'snhethi', 'puli', 'Engineering', 75000.00, '2021-01-15'),
-            (25, 'dilip', 'bairi', 'data', 88000.00, '2020-03-10'),
-            (24, 'dheeraj', 'kusri', 'Sales', 72000.00, '2019-07-22'),
-            (47, 'srikar', 'ambti', 'HR', 63000.00, '2022-04-12'),
+            (25, 'dilip', 'bairi', 'data', 90000.00, '2020-03-10'),
+            (24, 'dheeraj', 'kusri', 'Sales', 82000.00, '2019-07-22'),
+            (47, 'srikar', 'ambti', 'HR', 73000.00, '2022-04-12'),
             (10, 'heamnth', 'vangala', 'Engineering', 78000.00, '2021-09-01'),
             (6, 'Emily', 'Jones', 'Marketing', 71000.00, '2020-11-05'),
             (7, 'David', 'Miller', 'Sales', 74000.00, '2019-02-25'),

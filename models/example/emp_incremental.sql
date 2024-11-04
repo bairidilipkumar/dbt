@@ -1,7 +1,7 @@
 {{
     config(
-        materialized='incremental'
-        unique_keys='emp_id'
+        materialized='incremental',
+        unique_key='emp_id'
     )
 }}
 select * from {{ref('emp_table')}}
